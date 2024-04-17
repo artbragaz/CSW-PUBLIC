@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+    main{
+        background-color: white;
+        box-shadow: 300px 300px 300px indigo;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font:italic,bold, 3em, 'Times New Roman'
+    }
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1em;
+    }
+    body{
+        background-image: radial-gradient(circle, blue, indigo);
+    }
