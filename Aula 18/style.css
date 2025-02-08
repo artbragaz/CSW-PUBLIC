@@ -1,0 +1,23 @@
+/*Header*/
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+header{
+    
+}
+header nav{
+    font-size: 18px;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+
+}
+header img{
+    width: 150px;
+}

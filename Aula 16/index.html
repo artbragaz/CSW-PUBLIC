@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            align-items: center;
+        }
+
+        .item{
+            border-style: solid;
+            width: 100px;
+            margin: 3px;
+            width: 150px;
+        }
+        .article-02{
+           align-self: flex-start 3;
+        }
+        .aricle03{ align-self: flex-end}
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <section class="container">
+        <article class="item article-01">Artigo-01</article>
+
+        <article class="item article-02">Artigo-02</article>
+
+        <article class="item article-03">Artigo-03</article>
+
+    </section>
+</body>
+</html>
